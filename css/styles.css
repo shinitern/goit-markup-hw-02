@@ -1,3 +1,8 @@
+:root {
+  --title-color: #2e2f42;
+  --link-color: #2e2f42;
+  --header-link-color: #4d5ae5;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
@@ -21,10 +26,11 @@ body {
 .link {
   text-decoration: none;
 }
-.header {
+/* .header{
+
 }
 .header-navigation {
-}
+} */
 .logo {
   font-family: "Raleway" sans-serif;
   font-weight: 800;
@@ -32,7 +38,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .logo-web {
   font-family: "Raleway" sans-serif;
@@ -43,24 +49,27 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-list {
-  font-weight: 500;
+/* .header-list {
+} */
+/* .header-item {
+} */
+.header-link {
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
 }
-.header-item {
-}
-.header-link:hover {
-  color: #4d5ae5;
-}
+
+.header-link:hover,
 .header-link:focus {
-  color: #4d5ae5;
+  color: var(--header-link-color);
 }
-.contacts {
+
+/* .contacts {
 }
 .contacts-item {
-}
+} */
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -68,22 +77,13 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-link:hover {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #4d5ae5;
-}
+.contacts-link:hover,
 .contacts-link:focus {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #4d5ae5;
+  color: var(--header-link-color);
 }
+
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--title-color);
 }
 .hero-title {
   font-weight: 500;
@@ -92,15 +92,12 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hero-btn:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
 .hero-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -110,20 +107,20 @@ body {
   cursor: pointer;
 }
 
-.characteristics {
+/* .characteristics {
 }
 .visually-hidden {
 }
 .characteristics-list {
 }
 .characteristics-item {
-}
+} */
 .characteristics-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .characteristics-text {
   font-weight: 400;
@@ -132,44 +129,46 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.tasks {
-}
+/* .tasks {
+} */
 .tasks-title {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-color);
 }
-.tasks-list {
+/* .tasks-list {
 }
 .tasks-item {
 }
 .tasks-photo {
-}
+}*/
 .members {
+  background-color: #f4f4fd;
 }
+
 .members-title {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-color);
 }
-.members-list {
+/* .members-list {
 }
 .members-item {
 }
 .members-photo {
-}
+} */
 .members-names {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .members-description {
   font-weight: 400;
@@ -179,7 +178,7 @@ body {
   color: #434455;
 }
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--title-color);
 }
 .logo-studio {
   color: #f4f4fd;
@@ -192,36 +191,38 @@ body {
   color: #e7e9fc;
 }
 
-.portfolio {
+/* .portfolio {
 }
 .visually-hidden {
 }
 .buttons-list {
 }
 .buttons-item {
-}
-.button:hover {
+} */
+.button:hover,
+.button:focus {
   background-color: #4d5ae5;
   color: #ffffff;
 }
 .button {
+  font-family: inherit;
   background-color: #f4f4fd;
-  color: #4d5ae5;
+  color: var(--header-link-color);
   border: 1px;
   cursor: pointer;
 }
-.portfolio-list {
+/* .portfolio-list {
 }
 .portfolio-item {
 }
 .portfolio-photo {
-}
+} */
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .text {
   font-weight: 400;
