@@ -15,12 +15,18 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 .header {
 }
 .header-navigation {
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -29,7 +35,7 @@ body {
   color: #2e2f42;
 }
 .logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -38,7 +44,7 @@ body {
   color: #4d5ae5;
 }
 .header-list {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
@@ -80,14 +86,14 @@ body {
   background-color: #2e2f42;
 }
 .hero-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .hero-btn:hover {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.04em;
@@ -95,7 +101,7 @@ body {
   background-color: #404bbf;
 }
 .hero-btn {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.04em;
@@ -113,7 +119,7 @@ body {
 .characteristics-item {
 }
 .characteristics-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -129,7 +135,7 @@ body {
 .tasks {
 }
 .tasks-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -145,7 +151,7 @@ body {
 .members {
 }
 .members-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -159,7 +165,7 @@ body {
 .members-photo {
 }
 .members-names {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -211,7 +217,7 @@ body {
 .portfolio-photo {
 }
 .portfolio-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
