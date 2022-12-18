@@ -4,57 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Web studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="/">Web <span>Studio</span> </a>
-        <ul>
-          <li><a href="#studio">Studio</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="logo" href="./index.html">
+          <span class="logo-web">Web</span> Studio
+        </a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com"</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111 11 11"</a></li>
+      <ul class="contacts">
+        <li class="contacts-item">
+          <a class="contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com"</a
+          >
+        </li>
+        <li class="contacts-item">
+          <a class="contacts-link" href="tel:+110001111111"
+            >+11 (000) 111 11 11"</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <!--Section1-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
       <!--Section2-->
-      <section id="studio">
-        <h2 hidden>Characteristics</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="characteristics">
+        <h2 class="visually-hidden">Characteristics</h2>
+        <ul class="characteristics-list">
+          <li class="characteristics-item">
+            <h3 class="characteristics-title">Strategy</h3>
+            <p class="characteristics-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="characteristics-item">
+            <h3 class="characteristics-title">Punctuality</h3>
+            <p class="characteristics-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="characteristics-item">
+            <h3 class="characteristics-title">Diligence</h3>
+            <p class="characteristics-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="characteristics-item">
+            <h3 class="characteristics-title">Technologies</h3>
+            <p class="characteristics-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -62,50 +85,95 @@
         </ul>
       </section>
       <!--Section3-->
-      <section>
-        <h2>What Are We Doing</h2>
-        <ul>
-          <li>
-            <img src="./img/photo1.jpg" alt="photo1" width="360" height="300" />
+      <section class="tasks">
+        <h2 class="tasks-title">What Are We Doing</h2>
+        <ul class="tasks-list">
+          <li class="tasks-item">
+            <img
+              class="tasks-photo"
+              src="./img/photo1.jpg"
+              alt="photo1"
+              width="360"
+              height="300"
+            />
           </li>
-          <li>
-            <img src="./img/photo2.jpg" alt="photo2" width="360" height="300" />
+          <li class="tasks-item">
+            <img
+              class="tasks-photo"
+              src="./img/photo2.jpg"
+              alt="photo2"
+              width="360"
+              height="300"
+            />
           </li>
-          <li>
-            <img src="./img/photo3.jpg" alt="photo3" width="360" height="300" />
+          <li class="tasks-item">
+            <img
+              class="tasks-photo"
+              src="./img/photo3.jpg"
+              alt="photo3"
+              width="360"
+              height="300"
+            />
           </li>
         </ul>
       </section>
       <!--Section4-->
-      <section id="portfolio">
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="./img/img1.jpg" width="264" height="260" alt="img1" />
-            <h3>Mark Guerrero</h3>
-            <span>Product Designer</span>
+      <section class="members">
+        <h2 class="members-title">Our Team</h2>
+        <ul class="members-list">
+          <li class="members-item">
+            <img
+              class="members-photo"
+              src="./img/img1.jpg"
+              width="264"
+              height="260"
+              alt="img1"
+            />
+            <h3 class="members-names">Mark Guerrero</h3>
+            <span class="members-description">Product Designer</span>
           </li>
-          <li>
-            <img src="./img/img2.jpg" width="264" height="260" alt="img2" />
-            <h3>Tom Ford</h3>
-            <span>Frontend Developer</span>
+          <li class="members-item">
+            <img
+              class="members-photo"
+              src="./img/img2.jpg"
+              width="264"
+              height="260"
+              alt="img2"
+            />
+            <h3 class="members-names">Tom Ford</h3>
+            <span class="members-description">Frontend Developer</span>
           </li>
-          <li>
-            <img src="./img/img3.jpg" width="264" height="260" alt="img3" />
-            <h3>Camila Garciao</h3>
-            <span>Marketing</span>
+          <li class="members-item">
+            <img
+              class="members-photo"
+              src="./img/img3.jpg"
+              width="264"
+              height="260"
+              alt="img3"
+            />
+            <h3 class="members-names">Camila Garciao</h3>
+            <span class="members-description">Marketing</span>
           </li>
-          <li>
-            <img src="./img/img4.jpg" width="264" height="260" alt="img4" />
-            <h3>Daniel Wilson</h3>
-            <span>UI Designer</span>
+          <li class="members-item">
+            <img
+              class="members-photo"
+              src="./img/img4.jpg"
+              width="264"
+              height="260"
+              alt="img4"
+            />
+            <h3 class="members-names">Daniel Wilson</h3>
+            <span class="members-description">UI Designer</span>
           </li>
         </ul>
       </section>
     </main>
-    <footer id="contacts">
-      <a href="/">Web <span>Studio</span> </a>
-      <p>
+    <footer class="footer">
+      <a class="logo" href="/"
+        ><span class="logo-web">Web</span>
+        <span class="logo-studio">Studio</span>
+      </a>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions
       </p>
